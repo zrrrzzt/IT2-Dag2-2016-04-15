@@ -28,7 +28,6 @@ For å kunne løse oppgaven trenger du å vite litt om følgende emner
 [Løsningsforslag](besvarelse/basic.js)
 
 ### Emner - medium
-- for in
 - forEach
 
 [Løsningsforslag](besvarelse/medium.js)
