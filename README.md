@@ -35,6 +35,7 @@ For å kunne løse oppgaven trenger du å vite litt om følgende emner
 ### Emner - advanced
 - forEach
 - reduce
+- filter
 - join
 
 [Løsningsforslag](besvarelse/advanced.js)

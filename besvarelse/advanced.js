@@ -13,20 +13,20 @@ console.log(liste.join(', '))
 // Skriv ut alle tall som er større enn 10
 console.log('Skriv ut alle tall som er større enn 10')
 
-liste.forEach(function(tall) {
-  if (tall > 10) {
-    console.log(tall)
-  }
-})
+function isBiggerThan10 (tall) {
+  return tall > 10
+}
+
+console.log(liste.filter(isBiggerThan10).join(', '))
 
 // Skriv ut alle tall som er delelig med 2
 console.log('Skriv ut alle tall som er delelig med 2')
 
-liste.forEach(function(tall) {
-  if (tall % 2 === 0) {
-    console.log(tall)
-  }
-})
+function erDeleligMed2 (tall) {
+  return tall % 2 === 0
+}
+
+console.log(liste.filter(erDeleligMed2).join(', '))
 
 // Skriv ut tallene i omvendt rekkefølge
 console.log('Skriv ut tallene i omvendt rekkefølge')
