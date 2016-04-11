@@ -15,7 +15,7 @@ Lag en liste som inneholder tallene 1,6,3,2,10,5,12,15,6,9,17,14,7
 
 Det er nok å skrive ut resultatene i konsollen ```console.log()```
 
-### Emner - Grunnleggende
+### Emner - basic
 For å kunne løse oppgaven trenger du å vite litt om følgende emner
 - Lister (arrays)
 - Løkker (loops)
@@ -25,10 +25,16 @@ For å kunne løse oppgaven trenger du å vite litt om følgende emner
 - Tall (number)
 - Enkel matematikk
 
-### Emner - Viderekommende
-- forEach
-- parseInt
+[Løsningsforslag](besvarelse/basic.js)
 
-### Emner - Avansert
+### Emner - medium
+- for in
+
+[Løsningsforslag](besvarelse/medium.js)
+
+### Emner - advanced
+- forEach
 - reduce
-- functional programming
+- join
+
+[Løsningsforslag](besvarelse/advanced.js)
