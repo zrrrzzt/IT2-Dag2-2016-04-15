@@ -3,8 +3,6 @@ Undervisning IT2 Notodden vgs fredag 15. april
 
 Dagen skal i hovedsak benyttes til å gjennomgå oppgave 2 på forrige prøve.
 
-![High5](images/pokemonhi5.gif)
-
 ## Oppgave 2
 Lag en liste som inneholder tallene 1,6,3,2,10,5,12,15,6,9,17,14,7
 - Skriv ut alle tallene i lista
