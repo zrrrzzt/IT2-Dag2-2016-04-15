@@ -21,10 +21,13 @@ For å kunne løse oppgaven trenger du å vite litt om følgende emner
 - Løkker (loops)
 - Funksjoner (function)
 - Variabler (variables)
+- Strenger (strings)
+- Tall (number)
 - Enkel matematikk
 
 ### Emner - Viderekommende
 - forEach
+- parseInt
 
 ### Emner - Avansert
 - reduce
