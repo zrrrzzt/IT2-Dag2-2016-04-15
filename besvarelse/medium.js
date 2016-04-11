@@ -16,36 +16,36 @@ for (var tall in liste) {
 // Skriv ut alle tall som er større enn 10
 console.log('Skriv ut alle tall som er større enn 10')
 
-for (var tall in liste) {
+liste.forEach(function (tall) {
   if (tall > 10) {
     console.log(tall)
   }
-}
+})
 
 // Skriv ut alle tall som er delelig med 2
 console.log('Skriv ut alle tall som er delelig med 2')
 
-for (var tall in liste) {
+liste.forEach(function (tall) {
   if (tall % 2 === 0) {
     console.log(tall)
   }
-}
+})
 
 // Skriv ut tallene i omvendt rekkefølge
 console.log('Skriv ut tallene i omvendt rekkefølge')
 
 liste.reverse()
 
-for (var tall in liste) {
+liste.forEach(function (tall) {
   console.log(tall)
-}
+})
 
 // Skriv ut summen av tallene i lista
 console.log('Skriv ut summen av tallene i lista')
 
-for (var tall in liste) {
+liste.forEach(function (tall) {
   totalSum += tall
-}
+})
 
 console.log(totalSum)
 

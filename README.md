@@ -29,11 +29,11 @@ For å kunne løse oppgaven trenger du å vite litt om følgende emner
 
 ### Emner - medium
 - for in
+- forEach
 
 [Løsningsforslag](besvarelse/medium.js)
 
 ### Emner - advanced
-- forEach
 - reduce
 - filter
 - join
