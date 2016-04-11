@@ -19,15 +19,13 @@ Det er nok å skrive ut resultatene i konsollen ```console.log()```
 For å kunne løse oppgaven trenger du å vite litt om følgende emner
 - Lister (arrays)
 - Løkker (loops)
-- Funksjoner (function)
 - Variabler (variables)
-- Strenger (strings)
-- Tall (number)
 - Enkel matematikk
 
 [Løsningsforslag](besvarelse/basic.js)
 
 ### Emner - medium
+- function
 - forEach
 
 [Løsningsforslag](besvarelse/medium.js)
