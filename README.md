@@ -23,11 +23,15 @@ For å kunne løse oppgaven trenger du å vite litt om følgende emner
 
 [Løsningsforslag](besvarelse/basic.js)
 
+Kjør løsningsforslag ```$ npm run basic```
+
 ### Emner - medium
 - function
 - forEach
 
 [Løsningsforslag](besvarelse/medium.js)
+
+Kjør løsningsforslag ```$ npm run medium```
 
 ### Emner - advanced
 - reduce
@@ -35,3 +39,5 @@ For å kunne løse oppgaven trenger du å vite litt om følgende emner
 - join
 
 [Løsningsforslag](besvarelse/advanced.js)
+
+Kjør løsningsforslag ```$ npm run advanced```

@@ -1,0 +1,10 @@
+{
+  "name": "it2-dag2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "basic": "node besvarelser/basic.js",
+    "medium": "node besvarelser/medium.js",
+    "advanced": "node besvarelser/advanced.js"
+  }
+}
