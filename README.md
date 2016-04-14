@@ -28,3 +28,9 @@ Det er nok å skrive ut resultatene i konsollen ```console.log()```
 - Advanced
     - [Emner](docs/advanced.md)
     - [Løsningsforslag](besvarelser/advanced.js)
+
+## Tipsliste
+- [Grunnleggende JavaScript fra MDN](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [JavaScript for cats](http://jsforcats.com/)
+- [JavaScript.com](https://www.javascript.com/)
+- [JavaScript Roadtrip](http://javascript-roadtrip.codeschool.com/)
