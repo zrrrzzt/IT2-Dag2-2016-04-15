@@ -26,7 +26,13 @@ Det lureste er å gi den et navn som beskriver hva den inneholder som for eksemp
 
 Når du setter opp variabelnavnet bruker du ```var``` og deretter bruker du variabelnavnet.
 
+[Les mer om variables på MDN](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics#Variables)
+
 ## Arrays
+
+Arrays er lister
+
+
 
 ## Loops
 
