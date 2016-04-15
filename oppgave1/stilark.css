@@ -1,0 +1,55 @@
+body {
+	background-color: #BBBBBB;
+}
+table {
+	text-align: center;
+	background-color: lightgrey;
+	border-style: double;
+	border-width: 20px;
+	border-color: #BBBB01;
+	border-spacing: 10px; 
+	border-radius: 50px;
+}
+h1 {
+	font-size: 50px;
+	font-family: impact;
+}
+h2 {
+	font-family: courier;	
+	color: grey;
+	font-size: 30px;
+}
+.dag {
+	font-family: courier;
+	color: green;
+}
+#resultat {
+	font-family: impact;
+	font-size: 50px;
+}
+.norsk {
+	background-color: #F6E3CE;
+	font-family: verdana;
+}
+.kjemi {
+	background-color: #E2A9F3;
+	font-family: verdana;
+}
+
+.hist {
+	background-color: #F5F6CE;
+	font-family: verdana;
+}
+.gym {
+	background-color: #F8E0E0;
+	font-family: verdana;
+}
+.matte {
+	background-color: #A9F5A9;
+	font-family: verdana;
+
+}
+.it {
+	background-color: #F5A9BC;
+	font-family: verdana;
+}

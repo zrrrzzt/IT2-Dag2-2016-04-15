@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="stilark.css">
+	<meta charset="UTF-8">
+	<title>Løsningsforslag - oppgave 1 a og b</title>
+</head>
+<body align="center">
+	<h1>Min timeplan</h1>
+	<h2>Klasse: 3ST</h2>
+	<div id="div1" align="center">
+	<table>
+		<tr class="dag"><td><b>Time</b></td><td><b>Mandag</b></td><td><b>Tirsdag</b></td><td><b>Onsdag</b></td><td><b>Torsdag</b></td><td><b>Fredag</b></td></tr>
+		<tr><td class="dag"><b>1. time</b></td><td class="norsk">Norsk</td><td class="hist">Historie</td><td class="kjemi">Kjemi</td><td class="matte">Matte</td><td class="it">IT</td></tr>
+		<tr><td class="dag"><b>2. time</b></td><td class="norsk">Norsk</td><td class="hist">Historie</td><td class="kjemi">Kjemi</td><td class="matte">Matte</td><td class="it">IT</td></tr>
+		<tr><td class="dag"><b>3. time</b></td><td class="norsk">Norsk</td><td class="hist">Historie</td><td class="kjemi">Kjemi</td><td class="matte">Matte</td><td class="it">IT</td></tr>
+		<tr><td class="dag"><b>4. time</b></td><td class="norsk">Norsk</td><td class="gym">Gym</td><td class="kjemi">Kjemi</td><td class="matte">Matte</td><td class="it">IT</td></tr>
+		<tr><td class="dag"><b>5. time</b></td><td class="norsk">Norsk</td><td class="gym">Gym</td><td class="kjemi">Kjemi</td><td class="matte">Matte</td><td class="it">IT</td></tr>
+		<tr><td class="dag"><b>6. time</b></td><td class="norsk">Norsk</td><td class="gym">Gym</td><td class="kjemi">Kjemi</td><td class="matte">Matte</td><td class="it">IT</td></tr>
+		<tr><td class="dag"><b>7. time</b></td><td class="norsk">Norsk</td><td class="gym">Gym</td><td class="kjemi">Kjemi</td><td class="matte">Matte</td><td class="it">IT</td></tr>
+		<tr><td class="dag"><b>8. time</b></td><td class="norsk">Norsk</td><td class="gym">Gym</td><td class="kjemi">Kjemi</td><td class="matte">Matte</td><td class="it">IT</td></tr>
+	</table>
+	</div>
+	<br>
+	<br>
+	<select id="dag">
+		<option>Dag</option>
+		<option value="0">Mandag</option>
+		<option value="1">Tirsdag</option>
+		<option value="2">Onsdag</option>
+		<option value="3">Torsdag</option>
+		<option value="4">Fredag</option>
+	</select>
+
+	<select id="time">
+		<option>Time</option>
+		<option value="0">1. time</option>
+		<option value="1">2. time</option>
+		<option value="2">3. time</option>
+		<option value="3">4. time</option>
+		<option value="4">5. time</option>
+		<option value="5">6. time</option>
+		<option value="6">7. time</option>
+		<option value="7">8. time</option>
+	</select>
+	<input type="button" value="Vis fag" onclick="skrivUt()">
+	<br>
+	<h2>På det valgte tidspunktet har du: </h2>
+	<div id="resultat">
+	</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

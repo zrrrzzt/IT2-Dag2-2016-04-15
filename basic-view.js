@@ -18,7 +18,6 @@ for (var i = 0; i < listeLengde; i++) {
 alleTallContainer.innerHTML = alleTallContainerInnhold
 
 
-
 // Skriv ut alle tallene i lista motsatt
 console.log('Skriv ut alle tallene i lista motsatt')
 var alleTallContainerInnholdMotsatt = ''
