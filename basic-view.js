@@ -8,10 +8,31 @@ var totalSum = 0
 
 // Skriv ut alle tallene i lista
 console.log('Skriv ut alle tallene i lista')
+var alleTallContainerInnhold = ''
+var alleTallContainer = document.getElementById('alleTall')
 
 for (var i = 0; i < listeLengde; i++) {
-  console.log(liste[i])
+  alleTallContainerInnhold = alleTallContainerInnhold + liste[i] + ', '
 }
+
+alleTallContainer.innerHTML = alleTallContainerInnhold
+
+
+
+// Skriv ut alle tallene i lista motsatt
+console.log('Skriv ut alle tallene i lista motsatt')
+var alleTallContainerInnholdMotsatt = ''
+var alleTallContainerMotsatt = document.getElementById('alleTallMotsatt')
+
+liste.reverse()
+
+for (var i = 0; i < listeLengde; i++) {
+  alleTallContainerInnholdMotsatt = alleTallContainerInnholdMotsatt + liste[i] + ', '
+}
+
+alleTallContainerMotsatt.innerHTML = alleTallContainerInnholdMotsatt
+
+
 
 // Skriv ut alle tall som er større enn 10
 console.log('Skriv ut alle tall som er større enn 10')
